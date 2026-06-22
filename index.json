@@ -1,0 +1,19 @@
+{
+  "datasets": {
+    "medications": {
+      "file": "medications.json",
+      "formatVersion": 1,
+      "version": "2026-06-22"
+    },
+    "calculators": {
+      "file": "clinicalCalculators.json",
+      "formatVersion": 1,
+      "version": "2026-06-22"
+    },
+    "hospitals": {
+      "file": "hospitals.json",
+      "formatVersion": 1,
+      "version": "2026-06-22"
+    }
+  }
+}

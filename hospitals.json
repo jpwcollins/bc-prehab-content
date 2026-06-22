@@ -1,0 +1,612 @@
+[
+  {
+    "label": "Fraser Health",
+    "slug": "fraser-health",
+    "hospitals": [
+      {
+        "id": "abbotsford-regional",
+        "name": "Abbotsford Regional Hospital",
+        "authority": "Fraser Health",
+        "authoritySlug": "fraser-health",
+        "address": "32900 Marshall Road, Abbotsford, BC V2S 0C2",
+        "phone": "604-851-4700",
+        "parking": "Pay parking is available in the main parkade off Marshall Road. Hourly and daily rates apply. Accessible parking stalls are located near the main entrance.",
+        "website": "https://www.fraserhealth.ca",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "burnaby",
+        "name": "Burnaby Hospital",
+        "authority": "Fraser Health",
+        "authoritySlug": "fraser-health",
+        "address": "3935 Kincaid Street, Burnaby, BC V5G 2X6",
+        "phone": "604-434-4211",
+        "parking": "Visitor parking is available in the lot off Kincaid Street. Pay stations accept credit cards and coins. Street parking may also be available on nearby roads.",
+        "website": "https://www.fraserhealth.ca",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "chilliwack-general",
+        "name": "Chilliwack General Hospital",
+        "authority": "Fraser Health",
+        "authoritySlug": "fraser-health",
+        "address": "45600 Menholm Road, Chilliwack, BC V2P 1P7",
+        "phone": "604-795-4141",
+        "parking": "Free parking is available in designated visitor areas. Accessible parking is located near the main entrance and emergency department.",
+        "website": "https://www.fraserhealth.ca",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "delta",
+        "name": "Delta Hospital",
+        "authority": "Fraser Health",
+        "authoritySlug": "fraser-health",
+        "address": "5800 Mountain View Boulevard, Delta, BC V4K 3V6",
+        "phone": "604-946-1121",
+        "parking": "Free visitor parking is available on site. Accessible parking stalls are located close to the main entrance.",
+        "website": "https://www.fraserhealth.ca",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "eagle-ridge",
+        "name": "Eagle Ridge Hospital",
+        "authority": "Fraser Health",
+        "authoritySlug": "fraser-health",
+        "address": "475 Guildford Way, Port Moody, BC V3H 3W9",
+        "phone": "604-461-2022",
+        "parking": "Pay parking is available in the visitor lot. Hourly and daily rates apply. Accessible parking stalls are available near the main entrance.",
+        "website": "https://www.fraserhealth.ca",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "jim-pattison-outpatient",
+        "name": "Jim Pattison Outpatient Care and Surgery Centre",
+        "authority": "Fraser Health",
+        "authoritySlug": "fraser-health",
+        "address": "9750 140th Street, Surrey, BC V3T 0G9",
+        "phone": "604-582-4554",
+        "parking": "Pay parking is available in the parkade connected to the facility. Take a ticket upon entry and pay at the pay station before returning to your vehicle.",
+        "website": "https://www.fraserhealth.ca",
+        "note": "This is a dedicated outpatient surgical facility. Most same-day surgeries in the Fraser Health region are performed here.",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "langley-memorial",
+        "name": "Langley Memorial Hospital",
+        "authority": "Fraser Health",
+        "authoritySlug": "fraser-health",
+        "address": "22051 Fraser Highway, Langley, BC V3A 4H4",
+        "phone": "604-534-4121",
+        "parking": "Pay parking is available in the visitor lot off Fraser Highway. Pay stations accept credit cards. Accessible parking is located near the main entrance.",
+        "website": "https://www.fraserhealth.ca",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "peace-arch",
+        "name": "Peace Arch Hospital",
+        "authority": "Fraser Health",
+        "authoritySlug": "fraser-health",
+        "address": "15521 Russell Avenue, White Rock, BC V4B 2R4",
+        "phone": "604-531-5512",
+        "parking": "Pay parking is available on site. Street parking may also be available in the surrounding neighbourhood.",
+        "website": "https://www.fraserhealth.ca",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "ridge-meadows",
+        "name": "Ridge Meadows Hospital",
+        "authority": "Fraser Health",
+        "authoritySlug": "fraser-health",
+        "address": "11666 Laity Street, Maple Ridge, BC V2X 7G5",
+        "phone": "604-463-4111",
+        "parking": "Pay parking is available in the visitor lot. Hourly and daily rates apply. Accessible stalls are near the main entrance.",
+        "website": "https://www.fraserhealth.ca",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "royal-columbian",
+        "name": "Royal Columbian Hospital",
+        "authority": "Fraser Health",
+        "authoritySlug": "fraser-health",
+        "address": "330 East Columbia Street, New Westminster, BC V3L 3W7",
+        "phone": "604-520-4253",
+        "parking": "Pay parking is available in the parkade off East Columbia Street. This is a busy hospital — allow extra time to find parking. SkyTrain (Sapperton Station) is within walking distance.",
+        "website": "https://www.fraserhealth.ca",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "surrey-memorial",
+        "name": "Surrey Memorial Hospital",
+        "authority": "Fraser Health",
+        "authoritySlug": "fraser-health",
+        "address": "13750 96th Avenue, Surrey, BC V3V 1Z2",
+        "phone": "604-581-2211",
+        "parking": "Pay parking is available in the main parkade and surface lots. This is a large campus — check which entrance your procedure is booked at. The Jim Pattison Outpatient Centre is a separate building on the same campus.",
+        "website": "https://www.fraserhealth.ca",
+        "specificInfoUrl": ""
+      }
+    ]
+  },
+  {
+    "label": "Vancouver Coastal Health / Providence",
+    "slug": "vancouver-coastal",
+    "hospitals": [
+      {
+        "id": "lions-gate",
+        "name": "Lions Gate Hospital",
+        "authority": "Vancouver Coastal Health",
+        "authoritySlug": "vancouver-coastal",
+        "address": "231 East 15th Street, North Vancouver, BC V7L 2L7",
+        "phone": "604-988-3131",
+        "parking": "Pay parking is available in the parkade off 15th Street. Hourly and daily rates apply. Transit access is available via bus routes along Lonsdale Avenue.",
+        "website": "https://www.vch.ca",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "mount-saint-joseph",
+        "name": "Mount Saint Joseph Hospital",
+        "authority": "Providence Health Care",
+        "authoritySlug": "vancouver-coastal",
+        "address": "3080 Prince Edward Street, Vancouver, BC V5T 3N4",
+        "phone": "604-874-1141",
+        "parking": "Pay parking is available on site. Street parking is limited in the surrounding area. Accessible by bus along Kingsway and Main Street.",
+        "website": "https://www.providencehealthcare.org",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "powell-river",
+        "name": "Powell River General Hospital",
+        "authority": "Vancouver Coastal Health",
+        "authoritySlug": "vancouver-coastal",
+        "address": "5000 Joyce Avenue, Powell River, BC V8A 5R3",
+        "phone": "604-485-3211",
+        "parking": "Free parking is available on site. Accessible parking stalls are near the main entrance.",
+        "website": "https://www.vch.ca",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "richmond",
+        "name": "Richmond Hospital",
+        "authority": "Vancouver Coastal Health",
+        "authoritySlug": "vancouver-coastal",
+        "address": "7000 Westminster Highway, Richmond, BC V6X 1A2",
+        "phone": "604-278-9711",
+        "parking": "Pay parking is available in the visitor lot off Westminster Highway. Accessible parking stalls are near the main entrance. Canada Line (Richmond-Brighouse Station) is a short walk away.",
+        "website": "https://www.vch.ca",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "sechelt",
+        "name": "Sechelt Hospital",
+        "authority": "Vancouver Coastal Health",
+        "authoritySlug": "vancouver-coastal",
+        "address": "5544 Sunshine Coast Highway, Sechelt, BC V0N 3A0",
+        "phone": "604-885-2224",
+        "parking": "Free parking is available on site. The hospital is located on the Sunshine Coast Highway with easy access.",
+        "website": "https://www.vch.ca",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "squamish-general",
+        "name": "Squamish General Hospital",
+        "authority": "Vancouver Coastal Health",
+        "authoritySlug": "vancouver-coastal",
+        "address": "38140 Behrner Drive, Squamish, BC V8B 0J3",
+        "phone": "604-892-5211",
+        "parking": "Free parking is available on site. Accessible parking stalls are near the main entrance.",
+        "website": "https://www.vch.ca",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "st-pauls",
+        "name": "St. Paul's Hospital",
+        "authority": "Providence Health Care",
+        "authoritySlug": "vancouver-coastal",
+        "address": "1081 Burrard Street, Vancouver, BC V6Z 1Y6",
+        "phone": "604-682-2344",
+        "parking": "Pay parking is available in the parkade off Comox Street. Rates are higher than other sites due to the downtown location. Accessible by multiple bus routes and SkyTrain (Burrard Station).",
+        "website": "https://www.providencehealthcare.org",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "ubc",
+        "name": "UBC Hospital",
+        "authority": "Vancouver Coastal Health",
+        "authoritySlug": "vancouver-coastal",
+        "address": "2211 Wesbrook Mall, Vancouver, BC V6T 2B5",
+        "phone": "604-822-7121",
+        "parking": "Pay parking is available at the UBC parkades nearby (Thunderbird and Health Sciences parkades). Accessible by bus routes serving the UBC campus.",
+        "website": "https://www.vch.ca",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "vancouver-general",
+        "name": "Vancouver General Hospital",
+        "authority": "Vancouver Coastal Health",
+        "authoritySlug": "vancouver-coastal",
+        "address": "899 West 12th Avenue, Vancouver, BC V5Z 1M9",
+        "phone": "604-875-4111",
+        "parking": "Pay parking is available in the multi-level parkade off 12th Avenue and in surface lots. This is a very large campus — confirm which pavilion your procedure is in (Jim Pattison Pavilion, Gordon & Leslie Diamond Health Care Centre, etc.). Canada Line (Broadway–City Hall Station) is nearby.",
+        "website": "https://www.vch.ca",
+        "specificInfoUrl": ""
+      }
+    ]
+  },
+  {
+    "label": "Provincial Health Services Authority (PHSA)",
+    "slug": "phsa",
+    "hospitals": [
+      {
+        "id": "bc-childrens",
+        "name": "BC Children's Hospital",
+        "authority": "PHSA",
+        "authoritySlug": "phsa",
+        "address": "4480 Oak Street, Vancouver, BC V6H 3N1",
+        "phone": "604-875-2345",
+        "parking": "Pay parking is available in the parkade off Oak Street. Accessible parking and drop-off zones are located near the main entrance.",
+        "website": "https://www.bcchildrens.ca",
+        "note": "Pediatric surgical care. For patients under 18 years of age.",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "bc-womens",
+        "name": "BC Women's Hospital and Health Centre",
+        "authority": "PHSA",
+        "authoritySlug": "phsa",
+        "address": "4500 Oak Street, Vancouver, BC V6H 3N1",
+        "phone": "604-875-2424",
+        "parking": "Shares the Oak Street campus with BC Children's Hospital. Pay parking is available in the parkade off Oak Street.",
+        "website": "https://www.bcwomens.ca",
+        "note": "Specialized care for women and newborns. Located on the same campus as BC Children's Hospital.",
+        "specificInfoUrl": ""
+      }
+    ]
+  },
+  {
+    "label": "Island Health",
+    "slug": "island-health",
+    "hospitals": [
+      {
+        "id": "campbell-river",
+        "name": "Campbell River Hospital",
+        "authority": "Island Health",
+        "authoritySlug": "island-health",
+        "address": "375 2nd Avenue, Campbell River, BC V9W 3V1",
+        "phone": "250-850-2141",
+        "parking": "Free parking is available on site. Accessible parking stalls are located near the main entrance.",
+        "website": "https://www.islandhealth.ca",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "cowichan-district",
+        "name": "Cowichan District Hospital",
+        "authority": "Island Health",
+        "authoritySlug": "island-health",
+        "address": "3045 Gibbins Road, Duncan, BC V9L 1E5",
+        "phone": "250-737-2030",
+        "parking": "Free parking is available on site. Accessible parking stalls are available near the main entrance.",
+        "website": "https://www.islandhealth.ca",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "nanaimo-regional",
+        "name": "Nanaimo Regional General Hospital",
+        "authority": "Island Health",
+        "authoritySlug": "island-health",
+        "address": "1200 Dufferin Crescent, Nanaimo, BC V9S 2B7",
+        "phone": "250-755-7691",
+        "parking": "Pay parking is available in the visitor lot. Hourly and daily rates apply. Accessible parking stalls are near the main entrance.",
+        "website": "https://www.islandhealth.ca",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "comox-valley",
+        "name": "North Island Hospital Comox Valley",
+        "authority": "Island Health",
+        "authoritySlug": "island-health",
+        "address": "101 Lerwick Road, Courtenay, BC V9N 0B9",
+        "phone": "250-331-5900",
+        "parking": "Free parking is available on site. Accessible parking stalls are near the main entrance.",
+        "website": "https://www.islandhealth.ca",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "royal-jubilee",
+        "name": "Royal Jubilee Hospital",
+        "authority": "Island Health",
+        "authoritySlug": "island-health",
+        "address": "1952 Bay Street, Victoria, BC V8R 1J8",
+        "phone": "250-370-8000",
+        "parking": "Pay parking is available in the parkade and surface lots. Bus routes serve the hospital along Bay Street and Richmond Road.",
+        "website": "https://www.islandhealth.ca",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "saanich-peninsula",
+        "name": "Saanich Peninsula Hospital",
+        "authority": "Island Health",
+        "authoritySlug": "island-health",
+        "address": "2166 Mount Newton Cross Road, Saanichton, BC V8M 2B2",
+        "phone": "250-544-7676",
+        "parking": "Free parking is available on site. Accessible parking stalls are near the main entrance.",
+        "website": "https://www.islandhealth.ca",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "victoria-general",
+        "name": "Victoria General Hospital",
+        "authority": "Island Health",
+        "authoritySlug": "island-health",
+        "address": "1 Hospital Way, Victoria, BC V8Z 6R5",
+        "phone": "250-727-4212",
+        "parking": "Pay parking is available in the visitor lot. Hourly and daily rates apply. Accessible parking stalls are near the main entrance.",
+        "website": "https://www.islandhealth.ca",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "west-coast-general",
+        "name": "West Coast General Hospital",
+        "authority": "Island Health",
+        "authoritySlug": "island-health",
+        "address": "3949 Port Alberni Highway, Port Alberni, BC V9Y 4S1",
+        "phone": "250-731-1370",
+        "parking": "Free parking is available on site. Accessible parking stalls are near the main entrance.",
+        "website": "https://www.islandhealth.ca",
+        "specificInfoUrl": ""
+      }
+    ]
+  },
+  {
+    "label": "Interior Health",
+    "slug": "interior-health",
+    "hospitals": [
+      {
+        "id": "cariboo-memorial",
+        "name": "Cariboo Memorial Hospital",
+        "authority": "Interior Health",
+        "authoritySlug": "interior-health",
+        "address": "517 North 6th Avenue, Williams Lake, BC V2G 2G8",
+        "phone": "250-392-4411",
+        "parking": "Free parking is available on site. Accessible parking stalls are near the main entrance.",
+        "website": "https://www.interiorhealth.ca",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "east-kootenay",
+        "name": "East Kootenay Regional Hospital",
+        "authority": "Interior Health",
+        "authoritySlug": "interior-health",
+        "address": "13 24th Avenue North, Cranbrook, BC V1C 3H9",
+        "phone": "250-426-5281",
+        "parking": "Free parking is available on site. Accessible parking stalls are near the main entrance.",
+        "website": "https://www.interiorhealth.ca",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "kelowna-general",
+        "name": "Kelowna General Hospital",
+        "authority": "Interior Health",
+        "authoritySlug": "interior-health",
+        "address": "2268 Pandosy Street, Kelowna, BC V1Y 1T2",
+        "phone": "250-862-4000",
+        "parking": "Pay parking is available in the parkade and surface lots. This is a busy regional hospital — allow extra time to find parking. Bus routes serve the hospital along Pandosy Street.",
+        "website": "https://www.interiorhealth.ca",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "kootenay-boundary",
+        "name": "Kootenay Boundary Regional Hospital",
+        "authority": "Interior Health",
+        "authoritySlug": "interior-health",
+        "address": "1200 Hospital Bench Road, Trail, BC V1R 4M1",
+        "phone": "250-368-3311",
+        "parking": "Free parking is available on site. Accessible parking stalls are near the main entrance.",
+        "website": "https://www.interiorhealth.ca",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "kootenay-lake",
+        "name": "Kootenay Lake Hospital",
+        "authority": "Interior Health",
+        "authoritySlug": "interior-health",
+        "address": "3 View Street, Nelson, BC V1L 2V1",
+        "phone": "250-352-3111",
+        "parking": "Free parking is available on site. Street parking may also be available nearby.",
+        "website": "https://www.interiorhealth.ca",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "penticton-regional",
+        "name": "Penticton Regional Hospital",
+        "authority": "Interior Health",
+        "authoritySlug": "interior-health",
+        "address": "550 Carmi Avenue, Penticton, BC V2A 3G6",
+        "phone": "250-492-4000",
+        "parking": "Pay parking is available in the visitor lot. Accessible parking stalls are near the main entrance.",
+        "website": "https://www.interiorhealth.ca",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "queen-victoria",
+        "name": "Queen Victoria Hospital",
+        "authority": "Interior Health",
+        "authoritySlug": "interior-health",
+        "address": "1200 Newlands Road, Revelstoke, BC V0E 2S0",
+        "phone": "250-837-2131",
+        "parking": "Free parking is available on site. Accessible parking stalls are near the main entrance.",
+        "website": "https://www.interiorhealth.ca",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "royal-inland",
+        "name": "Royal Inland Hospital",
+        "authority": "Interior Health",
+        "authoritySlug": "interior-health",
+        "address": "311 Columbia Street, Kamloops, BC V2C 2T1",
+        "phone": "250-374-5111",
+        "parking": "Pay parking is available in the parkade and surface lots. Bus routes serve the hospital along Columbia Street.",
+        "website": "https://www.interiorhealth.ca",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "shuswap-lake",
+        "name": "Shuswap Lake General Hospital",
+        "authority": "Interior Health",
+        "authoritySlug": "interior-health",
+        "address": "601 10th Street NE, Salmon Arm, BC V1E 4N6",
+        "phone": "250-833-3600",
+        "parking": "Free parking is available on site. Accessible parking stalls are near the main entrance.",
+        "website": "https://www.interiorhealth.ca",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "vernon-jubilee",
+        "name": "Vernon Jubilee Hospital",
+        "authority": "Interior Health",
+        "authoritySlug": "interior-health",
+        "address": "2101 32nd Street, Vernon, BC V1T 5L2",
+        "phone": "250-545-2211",
+        "parking": "Pay parking is available in the visitor lot. Accessible parking stalls are near the main entrance.",
+        "website": "https://www.interiorhealth.ca",
+        "specificInfoUrl": ""
+      }
+    ]
+  },
+  {
+    "label": "Northern Health",
+    "slug": "northern-health",
+    "hospitals": [
+      {
+        "id": "bulkley-valley",
+        "name": "Bulkley Valley District Hospital",
+        "authority": "Northern Health",
+        "authoritySlug": "northern-health",
+        "address": "3950 8th Avenue, Smithers, BC V0J 2N0",
+        "phone": "250-847-2611",
+        "parking": "Free parking is available on site. Accessible parking stalls are near the main entrance.",
+        "website": "https://www.northernhealth.ca",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "dawson-creek",
+        "name": "Dawson Creek and District Hospital",
+        "authority": "Northern Health",
+        "authoritySlug": "northern-health",
+        "address": "11100 13th Street, Dawson Creek, BC V1G 3W8",
+        "phone": "250-782-8501",
+        "parking": "Free parking is available on site. Accessible parking stalls are near the main entrance.",
+        "website": "https://www.northernhealth.ca",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "fort-st-john",
+        "name": "Fort St. John Hospital",
+        "authority": "Northern Health",
+        "authoritySlug": "northern-health",
+        "address": "8407 112th Avenue, Fort St. John, BC V1J 0J5",
+        "phone": "250-262-5200",
+        "parking": "Free parking is available on site. Accessible parking stalls are near the main entrance.",
+        "website": "https://www.northernhealth.ca",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "gr-baker",
+        "name": "GR Baker Memorial Hospital",
+        "authority": "Northern Health",
+        "authoritySlug": "northern-health",
+        "address": "543 Front Street, Quesnel, BC V2J 2K7",
+        "phone": "250-985-5600",
+        "parking": "Free parking is available on site. Accessible parking stalls are near the main entrance.",
+        "website": "https://www.northernhealth.ca",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "mills-memorial",
+        "name": "Mills Memorial Hospital",
+        "authority": "Northern Health",
+        "authoritySlug": "northern-health",
+        "address": "4720 Haugland Avenue, Terrace, BC V8G 2W7",
+        "phone": "250-635-2211",
+        "parking": "Free parking is available on site. Accessible parking stalls are near the main entrance.",
+        "website": "https://www.northernhealth.ca",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "prince-rupert",
+        "name": "Prince Rupert Regional Hospital",
+        "authority": "Northern Health",
+        "authoritySlug": "northern-health",
+        "address": "1305 Summit Avenue, Prince Rupert, BC V8J 2A6",
+        "phone": "250-624-2171",
+        "parking": "Free parking is available on site. Accessible parking stalls are near the main entrance.",
+        "website": "https://www.northernhealth.ca",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "university-nbc",
+        "name": "University Hospital of Northern BC",
+        "authority": "Northern Health",
+        "authoritySlug": "northern-health",
+        "address": "1475 Edmonton Street, Prince George, BC V2M 1S2",
+        "phone": "250-565-2000",
+        "parking": "Pay parking is available on site. This is the major referral hospital for Northern BC — allow extra time to find your way.",
+        "website": "https://www.northernhealth.ca",
+        "specificInfoUrl": ""
+      }
+    ]
+  },
+  {
+    "label": "Non-Hospital Surgical Facilities",
+    "slug": "non-hospital",
+    "hospitals": [
+      {
+        "id": "cambie-surgery",
+        "name": "Cambie Surgery Centre",
+        "authority": "Private",
+        "authoritySlug": "non-hospital",
+        "address": "2836 Ash Street, Vancouver, BC V5Z 3C6",
+        "phone": "604-874-1349",
+        "parking": "Pay parking is available on nearby streets and in commercial lots. Accessible by Canada Line (King Edward Station).",
+        "website": "https://www.csc-surgery.com",
+        "note": "Private surgical facility. Check with your surgeon about specific arrival instructions.",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "false-creek",
+        "name": "False Creek Healthcare Centre",
+        "authority": "Private",
+        "authoritySlug": "non-hospital",
+        "address": "555 West 8th Avenue, Vancouver, BC V5Z 1C6",
+        "phone": "604-739-9695",
+        "parking": "Pay parking is available in the building parkade. Accessible by Canada Line (Broadway–City Hall Station) and multiple bus routes.",
+        "website": "https://www.falsecreekhealthcare.ca",
+        "note": "Private surgical facility. Check with your surgeon about specific arrival instructions.",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "okanagan-health",
+        "name": "Okanagan Health Surgical Centre",
+        "authority": "Private",
+        "authoritySlug": "non-hospital",
+        "address": "4014 Glenmore Road, Kelowna, BC V1W 1Y2",
+        "phone": "250-868-9799",
+        "parking": "Free parking is available on site. Accessible parking stalls are near the main entrance.",
+        "website": "https://www.okanaganhealthsurgical.ca",
+        "note": "Private surgical facility in Kelowna. Check with your surgeon about specific arrival instructions.",
+        "specificInfoUrl": ""
+      },
+      {
+        "id": "specialist-referral",
+        "name": "Specialist Referral Clinic",
+        "authority": "Private",
+        "authoritySlug": "non-hospital",
+        "address": "1200 Burrard Street, Vancouver, BC V6Z 2C7",
+        "phone": "604-602-1111",
+        "parking": "Pay parking is available in nearby commercial lots and parkades. Located in downtown Vancouver — accessible by SkyTrain (Burrard Station) and multiple bus routes.",
+        "website": "https://www.specialistreferralclinic.ca",
+        "note": "Private surgical facility. Check with your surgeon about specific arrival instructions.",
+        "specificInfoUrl": ""
+      }
+    ]
+  }
+]

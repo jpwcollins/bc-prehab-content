@@ -1,0 +1,146 @@
+[
+  {
+    "id": "revised-cardiac-risk-index-rcri",
+    "name": "Revised Cardiac Risk Index (RCRI)",
+    "platform": "MDCalc",
+    "url": "https://www.mdcalc.com/calc/1739/revised-cardiac-risk-index-pre-operative-risk",
+    "category": "Risk Stratification & Cardiac",
+    "relevantDrugClasses": "Broad application: Cardiovascular, Antiplatelet, Endocrine, GI, Pulmonary, Pain, and other medication classes",
+    "notes": "Estimates risk of major cardiac events after non-cardiac surgery; guides perioperative cardiac workup"
+  },
+  {
+    "id": "chads-vasc-score-for-atrial-fibrillation-stroke-risk",
+    "name": "CHA₂DS₂-VASc Score for Atrial Fibrillation Stroke Risk",
+    "platform": "MDCalc",
+    "url": "https://www.mdcalc.com/calc/801/cha2ds2-vasc-score-atrial-fibrillation-stroke-risk",
+    "category": "Risk Stratification & Cardiac",
+    "relevantDrugClasses": "Anticoagulants (warfarin, DOACs); Antiplatelet Agents (ASA, clopidogrel)",
+    "notes": "Guides anticoagulation decisions in patients with atrial fibrillation"
+  },
+  {
+    "id": "has-bled-bleeding-risk-score",
+    "name": "HAS-BLED Bleeding Risk Score",
+    "platform": "MDCalc",
+    "url": "https://www.mdcalc.com/calc/807/has-bled-score-major-bleeding-risk",
+    "category": "Risk Stratification & Cardiac",
+    "relevantDrugClasses": "Anticoagulants (warfarin, DOACs)",
+    "notes": "Estimates major bleeding risk on anticoagulation; informs perioperative bridging decisions"
+  },
+  {
+    "id": "acs-nsqip-surgical-risk-calculator",
+    "name": "ACS NSQIP Surgical Risk Calculator",
+    "platform": "American College of Surgeons",
+    "url": "https://riskcalculator.facs.org/RiskCalculator/",
+    "category": "Risk Stratification & Cardiac",
+    "relevantDrugClasses": "Antiplatelet Agents; Cancer Medications; Cardiovascular Medications",
+    "notes": "Estimates 30-day postoperative complication and mortality risk across surgical specialties"
+  },
+  {
+    "id": "surgical-outcome-risk-tool-sort-v2",
+    "name": "Surgical Outcome Risk Tool v2 (SORT)",
+    "platform": "SORT Surgery",
+    "url": "https://www.sortsurgery.com/",
+    "category": "Risk Stratification & Cardiac",
+    "relevantDrugClasses": "Broad application across perioperative medication classes",
+    "notes": "Uses information about patient health and the planned surgical procedure to provide an estimate of the risk of death within 30 days of an operation"
+  },
+  {
+    "id": "qtc-interval-calculator-bazett-fridericia-framingham",
+    "name": "QTc Interval Calculator (Bazett / Fridericia / Framingham)",
+    "platform": "MDCalc",
+    "url": "https://www.mdcalc.com/calc/48/corrected-qt-interval-qtc",
+    "category": "Risk Stratification & Cardiac",
+    "relevantDrugClasses": "Antiarrhythmics (amiodarone, dronedarone, flecainide, propafenone); Antipsychotics; Anticholinergic bladder agents",
+    "notes": "Corrects QT interval for heart rate; essential for identifying QT-prolonging medication risk perioperatively"
+  },
+  {
+    "id": "egfr-crcl-calculator-cockcroft-gault-equation",
+    "name": "eGFR / CrCl Calculator (Cockcroft-Gault Equation)",
+    "platform": "MDCalc",
+    "url": "https://www.mdcalc.com/calc/43/creatinine-clearance-cockcroft-gault-equation",
+    "category": "Anticoagulation & Renal Function",
+    "relevantDrugClasses": "Anticoagulants (DOACs — dabigatran, apixaban, rivaroxaban, edoxaban; LMWH; fondaparinux); Diuretics; Lithium",
+    "notes": "Used to calculate DOAC and LMWH hold duration based on renal function; preferred for drug dosing"
+  },
+  {
+    "id": "egfr-calculator-ckd-epi-equation",
+    "name": "eGFR Calculator (CKD-EPI Equation)",
+    "platform": "MDCalc",
+    "url": "https://www.mdcalc.com/calc/3939/ckd-epi-equations-glomerular-filtration-rate-gfr",
+    "category": "Anticoagulation & Renal Function",
+    "relevantDrugClasses": "SGLT2 Inhibitors (empagliflozin, canagliflozin, dapagliflozin)",
+    "notes": "CKD-EPI preferred for assessing renal function and SGLT2 inhibitor eligibility/safety"
+  },
+  {
+    "id": "caprini-vte-risk-score",
+    "name": "Caprini VTE Risk Score",
+    "platform": "MDCalc",
+    "url": "https://www.mdcalc.com/calc/3970/caprini-score-venous-thromboembolism-2005",
+    "category": "Anticoagulation & Renal Function",
+    "relevantDrugClasses": "Oral Contraceptives; Estrogen / Hormone Therapy; SERMs; Aromatase Inhibitors; Gender-Affirming Hormones; Post-Menopausal HRT",
+    "notes": "Stratifies VTE risk in surgical patients; guides prophylaxis decisions for patients on thrombogenic medications"
+  },
+  {
+    "id": "perioperative-steroid-conversion-supplementation-calculator",
+    "name": "Perioperative Steroid Conversion / Supplementation Calculator",
+    "platform": "MDCalc",
+    "url": "https://www.mdcalc.com/calc/2040/steroid-conversion-calculator",
+    "category": "Endocrine & Metabolic",
+    "relevantDrugClasses": "Glucocorticoids — Systemic (prednisone, dexamethasone, hydrocortisone)",
+    "notes": "Converts between steroid agents using equipotency ratios; supports stress-dose steroid supplementation planning"
+  },
+  {
+    "id": "preoperative-anaemia-assessment-iron-deficiency-replacement-calculator",
+    "name": "Preoperative Anaemia Assessment – Iron Deficiency Replacement Calculator",
+    "platform": "MDCalc",
+    "url": "https://www.mdcalc.com/calc/10139/replacement-doses-iron-deficiency-anemia",
+    "category": "Endocrine & Metabolic",
+    "relevantDrugClasses": "Iron Supplements (ferrous gluconate, ferrous sulfate, ferrous fumarate, polysaccharide iron, heme iron polypeptide)",
+    "notes": "Calculates oral iron replacement dose for preoperative anaemia optimisation (patient blood management)"
+  },
+  {
+    "id": "benzodiazepine-conversion-calculator",
+    "name": "Benzodiazepine Conversion Calculator",
+    "platform": "MDCalc",
+    "url": "https://www.mdcalc.com/calc/10091/benzodiazepine-conversion-calculator",
+    "category": "Neurology & Psychiatry",
+    "relevantDrugClasses": "Benzodiazepines (all classes: short, intermediate, long-acting); Z-drugs (zopiclone, zolpidem, eszopiclone)",
+    "notes": "Converts between oral benzodiazepine agents using equipotency ratios for perioperative management"
+  },
+  {
+    "id": "opioid-equianalgesic-opiate-conversion-calculator",
+    "name": "Opioid Equianalgesic / Opiate Conversion Calculator",
+    "platform": "MDCalc",
+    "url": "https://www.mdcalc.com/calc/3947/opiate-conversion-calculator",
+    "category": "Pain & Addictions",
+    "relevantDrugClasses": "Chronic Opioids (codeine, fentanyl, hydromorphone, morphine, oxycodone, tapentadol, tramadol, methadone, meperidine, diacetylmorphine); Buprenorphine",
+    "notes": "Converts between opioid agents and routes using equianalgesic ratios; essential for perioperative pain planning"
+  },
+  {
+    "id": "cows-score-for-opioid-withdrawal",
+    "name": "COWS Score for Opioid Withdrawal",
+    "platform": "MDCalc",
+    "url": "https://www.mdcalc.com/calc/1985/cows-score-opiate-withdrawal",
+    "category": "Pain & Addictions",
+    "relevantDrugClasses": "Buprenorphine; Naltrexone; Chronic Opioids; Methadone",
+    "notes": "Quantifies severity of opioid withdrawal; guides perioperative opioid management in patients on OAT"
+  },
+  {
+    "id": "audit-c-alcohol-use-screening-tool",
+    "name": "AUDIT-C Alcohol Use Screening Tool",
+    "platform": "MDCalc",
+    "url": "https://www.mdcalc.com/calc/2021/audit-c-alcohol-use-screening",
+    "category": "Pain & Addictions",
+    "relevantDrugClasses": "Pain & Addictions Management Medications (Acamprosate, Naltrexone/Bupropion)",
+    "notes": "3-item screen for hazardous or harmful alcohol use; relevant to alcohol use disorder medication management"
+  },
+  {
+    "id": "cannabis-use-disorder-identification-test-cudit-r",
+    "name": "Cannabis Use Disorder Identification Test (CUDIT-R)",
+    "platform": "National Institute on Drug Abuse (NIDA)",
+    "url": "https://www.cpha.ca/sites/default/files/uploads/resources/cannabis/cudit-r(1).pdf",
+    "category": "Pain & Addictions",
+    "relevantDrugClasses": "Miscellaneous Medications (Medical and Social Marijuana)",
+    "notes": "8-item validated screen for cannabis use disorder in perioperative patients"
+  }
+]
