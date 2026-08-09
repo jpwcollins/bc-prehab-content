@@ -22,11 +22,14 @@ That's it. No git tags and no releases — the included GitHub Action
 (`.github/workflows/purge-cdn.yml`) refreshes the jsDelivr edge cache on every
 push to `main`.
 
-**That purge is not optional.** jsDelivr ignores unknown query params when
-caching an `@branch` path, so the app's cache-busting suffix does not defeat the
-edge cache — without a purge, a published change can sit unseen by users until
-the cache expires on its own. If a change isn't landing, check that the workflow
-ran, or purge by hand:
+**Expect up to ~12 hours before users see a change.** jsDelivr caches `@main`
+paths for 12 hours and caches the branch→commit resolution itself, so a push is
+not instantly visible. The purge workflow bounds that delay but is neither
+instant nor uniform — edge nodes expire independently, so two users in different
+regions can briefly get different content. The app checks weekly by default, so
+this rarely matters; just don't assume a correction is live the moment you push.
+
+If a change isn't landing at all, check that the workflow ran, or purge by hand:
 
 ```bash
 curl "https://purge.jsdelivr.net/gh/jpwcollins/bc-prehab-content@main/index.json"
