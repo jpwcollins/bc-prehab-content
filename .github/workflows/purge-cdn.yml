@@ -1,0 +1,30 @@
+name: Purge jsDelivr cache
+
+# Refresh jsDelivr's edge cache for the index and every dataset on each push to
+# main, so app users pick up published changes promptly. Dependency-free: just
+# curl. Editors never run a manual purge — pushing to main is enough.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "index.json"
+      - "medications.json"
+      - "clinicalCalculators.json"
+      - "hospitals.json"
+  workflow_dispatch: {}
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Purge CDN cache for content files
+        run: |
+          OWNER="${GITHUB_REPOSITORY%/*}"
+          REPO="${GITHUB_REPOSITORY#*/}"
+          for FILE in index.json medications.json clinicalCalculators.json hospitals.json; do
+            URL="https://purge.jsdelivr.net/gh/${OWNER}/${REPO}@main/${FILE}"
+            echo "Purging ${URL}"
+            curl -s -S -m 30 "${URL}" || echo "Purge request for ${FILE} failed (non-fatal)"
+            echo ""
+          done
