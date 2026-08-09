@@ -18,9 +18,19 @@ here lets you update content **without** a new app build or App Store review.
    The app only re-downloads when the remote date is **newer** than the installed date.
 3. Commit and push to `main`.
 
-That's it. No git tags, no releases, no manual cache purge — the included GitHub
-Action (`.github/workflows/purge-cdn.yml`) refreshes the jsDelivr edge cache on
-every push to `main`.
+That's it. No git tags and no releases — the included GitHub Action
+(`.github/workflows/purge-cdn.yml`) refreshes the jsDelivr edge cache on every
+push to `main`.
+
+**That purge is not optional.** jsDelivr ignores unknown query params when
+caching an `@branch` path, so the app's cache-busting suffix does not defeat the
+edge cache — without a purge, a published change can sit unseen by users until
+the cache expires on its own. If a change isn't landing, check that the workflow
+ran, or purge by hand:
+
+```bash
+curl "https://purge.jsdelivr.net/gh/jpwcollins/bc-prehab-content@main/index.json"
+```
 
 ## Hospital "Specific information"
 
