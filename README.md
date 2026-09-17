@@ -10,6 +10,9 @@ here lets you update content **without** a new app build or App Store review.
 - `medications.json` — preoperative medication advice list.
 - `clinicalCalculators.json` — clinical calculator directory.
 - `hospitals.json` — hospital directory (each hospital has an optional `specificInfoUrl`).
+- `privacy.html` — the app's privacy policy. Not clinical content and not
+  fetched by the app; it lives here so GitHub Pages can serve it as the policy
+  URL the App Store listing points at. See below.
 
 ## How to publish a content change
 
@@ -48,6 +51,27 @@ Each hospital in `hospitals.json` may include a `specificInfoUrl`:
 - Empty, absent, or invalid → the app calmly shows "No specific information is provided at this time."
 
 The URL can point anywhere — the hospital's own site or a file committed into this repo.
+
+## The privacy policy page
+
+`privacy.html` is the published privacy policy for the app. It is a single
+self-contained file: no scripts, no external fonts, no requests of any kind,
+which is the least a privacy policy can do.
+
+**It is served by GitHub Pages, not by jsDelivr.** jsDelivr returns `.html` with
+`Content-Type: text/plain` and `X-Content-Type-Options: nosniff`, so a browser
+shows the source instead of the page — do not link the CDN copy. Pages is
+enabled on this repo (branch `main`, path `/`), and serves the policy at:
+
+```
+https://jpwcollins.github.io/bc-prehab-content/privacy.html
+```
+
+That is the URL for the App Store Connect privacy-policy field. A push to `main`
+rebuilds the site in about a minute. Pages does not affect how the datasets are
+served — the app keeps fetching those through jsDelivr.
+
+The source of record is `PRIVACY.md` in the app repo; change both together.
 
 ## Format versions
 
